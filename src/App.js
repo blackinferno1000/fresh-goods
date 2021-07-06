@@ -8,7 +8,7 @@ import Footer from "./components/Footer.js";
 
 function App() {
   return (
-    <main>
+    <main className="app min-vh-100">
       <Hero />
       <Benefit />
       <Testimonial />
