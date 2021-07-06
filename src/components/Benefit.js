@@ -44,7 +44,7 @@ export default function Benefit() {
 function BenefitCard(props) {
   return (
     <div className="text-center p-5 col-md-4">
-      <img className="pb-2" src={props.url} alt={props.alt} />
+      <img className="pb-2 bimg" src={props.url} alt={props.alt} />
       <h3>{props.head}</h3>
       <p>{props.description}</p>
     </div>
