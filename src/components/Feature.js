@@ -4,7 +4,7 @@ import coffee from "../assets/coffee.jpeg";
 
 export default function Feature() {
   return (
-    <section className="container-fluid">
+    <section className="container-fluid py-5">
       <div className="pt-5 row justify-content-center text-center pb-3">
         <FeatureCard
           url={baking}
